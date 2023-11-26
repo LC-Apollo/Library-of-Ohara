@@ -1,0 +1,77 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on google searches'
+tagTitle: 'Menu'
+preloadImg: '/images/ccoffee-beans.jpg'
+preloadCSS: '/css/menu.css'
+permalink: 'menu/'
+eleventyNavigation:
+    key: Menu
+    order: 200
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Our Menu</h1>
+  {% image './src/images/coffee-beans.jpg', 'coffee-beans', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+
+</section>
+
+<!-- ============================================ -->
+<!--                   Menu                    -->
+<!-- ============================================ -->
+
+<div id="menu">
+    <div class="menu-group">
+      <section class="menu">
+        <div class="cs-container">
+          <div class="content">
+            <h2 class="menu-section-title">Drinks</h2>
+            <p class="menu-section-content">Here is a list of our drinks. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          </div>
+          <div class="menu-item-group">
+            <div class="menu-row row-of-3">
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="menu-row">
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="menu-row">
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+              <div class="menu-item">
+                <h3 class="menu-item-title"><span class="menu-item-name">Some kind of drink</span><span class="menu-item-price">$3.50</span></h3>
+                <p class="menu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+</div>

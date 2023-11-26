@@ -1,0 +1,15 @@
+{
+  "name": "Black Maple Coffee",
+  "email": "Admin@blackmaplecoffee.com",
+  "phone": "309-224-5929",
+  "phoneFormatted": "(309) 224-5929",
+  "address": {
+    "lineOne": "1120 E Linn St",
+    "lineTwo": "",
+    "city": "Canton",
+    "county": "IL",
+    "postcode": "61520",
+    "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+  },
+  "domain": "www.website.com"
+}

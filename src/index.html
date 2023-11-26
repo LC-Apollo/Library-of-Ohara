@@ -1,0 +1,270 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on google searches'
+tagTitle: 'Coffee & Espresso'
+preloadImg: '/src/images/coffee-side-200w.jpeg'
+preloadCSS: '/css/local.css'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+  <div class="cs-container hero-container">
+    <div class="cs-flex-group">
+      <span class="cs-topper">Black Maple Coffee</span>
+      <h1 class="cs-title">Some big message here that's brand focused
+      </h1>
+      <p class="cs-text">
+        Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh
+        condimentum.
+      </p>
+      <a href="/menu"  class="cs-button-solid">Our Menu</a>
+      <a href="/about" role="button" class="cs-button-transparent">
+        <img
+          class="cs-img"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
+          alt="play icon"
+          width="17"
+          height="17"
+/>
+        About Us
+      </a>
+    </div>
+  </div>
+
+  <!-- Background Image -->
+  {% image './src/images/coffee-side.jpg', 'coffee on a table', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                     Menu                     -->
+<!-- ============================================ -->
+
+<section id="menu">
+  <div class="container">
+    <div class="menu-text-box">
+      <h2 class="menu-title-box">Some of our drinks</h2>
+      <p class="menu-description-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="menu-card-group">
+      <div class="menu-item">
+        <picture class="menu-item-picture" aria-hidden="true">
+          {% image './src/images/coffee-menu-example.jpg', 'drink-example', 'menu-item-picture', 'lazy', '(max-width: 600px) 180px, 180px'%}
+        </picture>
+        <div class="menu-item-info">
+          <h3>Specific Drink Name <span class="menu-item-price">$3.50</span></h3>
+          <p class="menu-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <picture class="menu-item-picture" aria-hidden="true">
+          {% image './src/images/coffee-menu-example.jpg', 'drink-example', 'menu-item-picture', 'lazy', '(max-width: 600px) 180px, 180px'%}
+        </picture>
+        <div class="menu-item-info">
+          <h3>Specific Drink Name <span class="menu-item-price">$3.50</span></h3>
+          <p class="menu-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <picture class="menu-item-picture" aria-hidden="true">
+          {% image './src/images/coffee-menu-example.jpg', 'drink-example', 'menu-item-picture', 'lazy', '(max-width: 600px) 180px, 180px'%}
+        </picture>
+        <div class="menu-item-info">
+          <h3>Specific Drink Name <span class="menu-item-price">$3.50</span></h3>
+          <p class="menu-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <picture class="menu-item-picture" aria-hidden="true">
+          {% image './src/images/coffee-menu-example.jpg', 'drink-example', 'menu-item-picture', 'lazy', '(max-width: 600px) 180px, 180px'%}
+        </picture>
+        <div class="menu-item-info">
+          <h3>Specific Drink Name <span class="menu-item-price">$3.50</span></h3>
+          <p class="menu-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <picture class="menu-item-picture" aria-hidden="true">
+          {% image './src/images/coffee-menu-example.jpg', 'drink-example', 'menu-item-picture', 'lazy', '(max-width: 600px) 180px, 180px'%}
+        </picture>
+        <div class="menu-item-info">
+          <h3>Specific Drink Name <span class="menu-item-price">$3.50</span></h3>
+          <p class="menu-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <picture class="menu-item-picture" aria-hidden="true">
+          {% image './src/images/coffee-menu-example.jpg', 'drink-example', 'menu-item-picture', 'lazy', '(max-width: 600px) 180px, 180px'%}
+        </picture>
+        <div class="menu-item-info">
+          <h3>Specific Drink Name <span class="menu-item-price">$3.50</span></h3>
+          <p class="menu-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+  <div class="cs-container">
+    <span class="cs-topper">Food and deserts</span>
+    <h2 class="cs-title">Et orci volutpat, Et orci volutpat</h2>
+    <div class="cs-image-group">
+      <!-- Row 1-->
+      <div class="cs-row cs-row-1">
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+      </div>
+      <!-- Row 2 -->
+      <div class="cs-row cs-row-2">
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+      </div>
+      <!-- Row 3 -->
+      <div class="cs-row cs-row-3">
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/food-example.jpg', 'food example', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+      </div>
+    </div>
+    <a href="/menu" class="button-solid">View Our Menu</a>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews">
+  <div class="cs-container">
+    <span class="cs-topper">Our Reviews</span>
+    <h2 class="cs-title">Words From Our Customers</h2>
+    <p class="cs-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis
+      sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum
+      dolor sit amet.
+    </p>
+    <ul class="cs-card-group">
+      <!-- Review 1 -->
+      <li class="cs-item">
+        <img
+          class="cs-item-img"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+          alt="profile picture"
+          width="80"
+          height="80"
+/>
+        <p class="cs-item-p">
+          Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna
+          pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa
+          urna, volutpat orci imperdiet eget eget.
+        </p>
+        <span class="cs-reviewer">
+          Jon Doe
+          <span class="cs-desc">Homeowner</span>
+        </span>
+        <img
+          class="cs-item-stars"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+          alt="stars"
+          width="96"
+          height="16"
+/>
+      </li>
+      <!-- Review 2 -->
+      <li class="cs-item">
+        <img
+          class="cs-item-img"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
+          alt="profile picture"
+          width="80"
+          height="80"
+/>
+        <p class="cs-item-p">
+          Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna
+          pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa
+          urna, volutpat orci imperdiet eget eget.
+        </p>
+        <span class="cs-reviewer">
+          Jane Doe
+          <span class="cs-desc">Homeowner</span>
+        </span>
+        <img
+          class="cs-item-stars"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+          alt="stars"
+          width="96"
+          height="16"
+/>
+      </li>
+    </ul>
+    <a aria-label="read more reviews" href="/reviews" class="button-solid">Read More</a>
+  </div>
+</section>
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Come Check Us Out!
+    </h2>
+    <p>
+      Say something catchy, informative, and encouraging to click the button to go to the menu.
+    </p>
+    <a href="/menu" class="button-solid">Look at our menu</a>
+  </div>
+  {% image './src/images/coffee-beans.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window
+      .netlifyIdentity
+      .on('init', (user) => {
+        if (!user) {
+          window
+            .netlifyIdentity
+            .on('login', () => {
+              document.location.href = '/admin/';
+            });
+        }
+      });
+  }
+</script>

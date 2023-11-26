@@ -1,0 +1,131 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on OG social Media Title Tag'
+tagTitle: 'Reviews'
+preloadImg: '/images/coffee-beans.jpg'
+preloadCSS: '/css/reviews.css'
+permalink: 'reviews/'
+eleventyNavigation:
+    key: Reviews
+    order: 400
+---
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Our Reviews</h1>
+  {% image './src/images/coffee-beans.jpg', 'coffee-beans', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews">
+  <div class="container">
+    <div class="review">
+      <picture>
+        <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+      </picture>
+      <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+      <div class="star-group">
+        <span class="name">B Miller<span class="desc">Homeowner</span></span>
+        <picture>
+          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+      </picture>
+      <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+      <div class="star-group">
+        <span class="name">Vincent M.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+      </picture>
+      <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+      <div class="star-group">
+        <span class="name">Alex L.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+      </picture>
+      <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+      <div class="star-group">
+        <span class="name">Arrieana M.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+      </picture>
+      <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+      <div class="star-group">
+        <span class="name">Leo N.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+      </picture>
+      <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+      <div class="star-group">
+        <span class="name">Brian A.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Come Check Us Out!
+    </h2>
+    <p>
+      Say something catchy, informative, and encouraging to click the button to go to the menu.
+    </p>
+    <a href="/menu" class="button-solid">Look at our menu</a>
+  </div>
+  {% image './src/images/coffee-beans.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
